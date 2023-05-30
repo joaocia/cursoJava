@@ -21,6 +21,8 @@ public class OperadorBInario {
 		System.out.println(resultado.apply(9.7, 4.1));
 		System.out.println(resultado.apply(8.5, 7.2));
 		
+		// 
+		
 		Function<Double, String> conceito = m -> m >= 7 ? "Aprovado" : "Reprovado";
 		
 		System.out.println(media.andThen(conceito).apply(9.7, 4.1));
